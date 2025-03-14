@@ -1,6 +1,6 @@
 use_frameworks!
 
-MAC_TARGET_VERSION = '10.14'
+MAC_TARGET_VERSION = '10.15'
 IOS_TARGET_VERSION = '14'
 
 def mac_pods
@@ -20,7 +20,7 @@ def common_pods
     pod 'RNCryptor', '~> 5.1.0'
     pod 'SSZipArchive', :git => 'https://github.com/glushchenko/ZipArchive.git', :branch => 'master'
     pod 'Punycode'
-    pod 'SwiftSoup', :git => 'https://github.com/scinfu/SwiftSoup', :commit => 'e2d11208519549c2e5798d70190472045633f22f'
+    pod 'SwiftSoup', :git => 'https://github.com/scinfu/SwiftSoup', :branch => 'master'
 end
 
 def framework_pods
